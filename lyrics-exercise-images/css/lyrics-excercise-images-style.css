@@ -1,0 +1,22 @@
+
+
+body {
+	font-color:#6e9bb3;
+	font-size: 11px;
+	font-family:indie_flower;
+	text-align:center;
+
+	align-content: center;
+	max-width: 700px;
+	margin:auto;
+
+	background-image:url("https://timsfilmreviews.files.wordpress.com/2013/11/gravity-floating-in-space.jpg");
+
+}
+
+
+div {width: 600px
+	 margin: auto;
+	 align-content:center;
+	}
+
