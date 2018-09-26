@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Image Format Comparisons</title>
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				padding: 30px;
+			}
+
+			h1 {
+				margin: 0 0 6px 0;
+			}
+
+			h2 {
+				margin: 0 0 30px 0;
+			}
+
+			table {
+			}
+
+			td, th {
+				background-color: #eee;
+				padding: 30px;
+				margin: 2px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.blank {
+				background-color: transparent;
+			}
+
+			.label {
+				background-color: #3997b6;
+				color: #fff;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.label.optimized {
+				background-color: #39b64e;
+			}
+
+			.note {
+				font-size: 14px;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			div.note {
+				margin-top: 5px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Image Optimization Grid</h1>
+		<h2>Kristina You</h2>
+
+		<table>
+			<tr>
+				<td class="label">Original</td>
+				<td><img src="images/sign_original.jpg" alt="Sign - Original"><div class="note">115KB</div></td>
+				<td><img src="images/hanks_original.jpg" alt="Tom Hanks - Original"><div class="note">49.4KB</div></td>
+				<td><img src="images/wings_original.svg" alt="Wings - Original"><div class="note">5.08KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">GIF 16 <span class="note">(with transparency)</td>
+				<td><img src="images/sign-gif16.gif" alt="Sign-Gif16">21KB </td>
+				<td><img src="images/hanks-gif16.gif" alt="Hanks-gif16"> 16KB </td>
+				<td><img src="images/wings-gif16.gif" alt="Wings-gif16"> 21KB </td>
+			</tr>
+			<tr>
+				<td class="label">GIF 256 <span class="note">(with transparency)</td>
+				<td><img src="images/sign_gif256.gif" alt="Sign-Gif256"> 57KB </td>
+				<td><img src="images/hanks-gif256.gif" alt="Hanks-gif256"> 45KB</td>
+				<td><img src="images/wings-gif256.gif" alt="wings-gif256"> 21KB</td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Low <span class="note">(10%)</span></td>
+				<td><img src="images/sign-jpeg10.jpg" alt="sign-jpeg10"> 12KB </td>
+				<td><img src="images/hanks-jpeg10.jpg" alt="Hanks-jpeg10"> 6KB</td>
+				<td><img src="images/wings-jpeg10.jpg" alt="wings-jpeg10"> 60KB </td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Very High <span class="note">(80%)</span></td>
+				<td><img src="images/sign-jpeg80.jpg" alt="Sign-jpeg80"> 58KB </td>
+				<td><img src="images/hanks-jpeg80.jpg" alt="Hanks-jpeg80"> 27KB</td>
+				<td><img src="images/wings-jpeg80.jpg" alt="wings-jpeg80"> 199KB</td>
+			</tr>
+			<tr>
+				<td class="label">PNG-8</td>
+				<td><img src="images/sign-png8.png" alt="Sign-png8"> 20KB</td>
+				<td><img src="images/hanks-png8.png" alt="Hanks-png8"> 16KB</td>
+				<td><img src="images/wings-png8.png" alt="wings-png8"> 15KB</td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(without transparency)</span></td>
+				<td><img src="images/sign-png24.png" alt="Sign-png24"> 183KB </td>
+				<td><img src="images/hanks-png24.png" alt="Hanks-png24"> 99KB</td>
+				<td><img src="images/wings-png24.png" alt="wings-png24"> 79KB</td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(with transparency)</span></td>
+				<td><img src="images/sign-png24transparency.png" alt="Sign-png24transparency"> 183KB </td>
+				<td><img src="images/hanks-png24transparency.png" alt="Hanks-png24transparency"> 99KB </td>
+				<td><img src="images/wings-png24transparency.png" alt="wings-png24transparency"> 77KB </td>
+			</tr>
+			<tr>
+				<td class="label">SVG</td>
+				<td><img src="images/sign-svg.svg" alt="Sign-svg"> 89KB </td>
+				<td><img src="images/hanks-svg.svg" alt="Hanks-svg"> 213KB</td>
+				<td><img src="images/wings-svg.svg" alt="wings-svg"> 52KB</td>
+			</tr>
+			<tr>
+				<td class="label optimized">Optimized <span class="note">(you choose)</span></td>
+				<td><img src="images/sign_gif256.gif" alt="Sign-optimized"> 57KB </td>
+				<td><img src="images/hanks-png24transparency.png" alt="Hanks-optimized"> 99KB </td>
+				<td><img src="images/wings-jpeg80.jpg" alt="wings-jpeg80"> 199KB</td>
+			</tr>
+		</table>
+
+
+	</body
+</html>
