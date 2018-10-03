@@ -1,0 +1,222 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "Archivo Narrow", sans-serif;
+
+	font-size: 16px;
+}
+
+.header {
+	background-color:rgba( 255,0,0,0.5);
+	text-align: center;
+	margin:0;
+	position:relative;
+	background-size:cover;
+	display:block;
+	height:480px;
+	width: 100%;
+	background-image: url("https://static1.squarespace.com/static/54a4b31be4b0970e0f0aff8a/57d1b7adb3db2b5f4711b6e4/57dfd072893fc0fde4f82bf7/1526916445107/card3.jpg?format=2500w");
+	background-position: center;
+
+	background-repeat: none;
+
+}
+
+.header h1{
+	display: block;
+	margin-top:0px;
+	margin-bottom:20px 
+	font-size:80px;
+	letter-spacing: 1.5px
+	color:white;
+	text-align:center;
+	font-size:75px;
+
+}
+
+.header h2{
+	display: block;
+	margin-top:0;
+	font-size:35px;
+}
+
+.section1 {
+	background-color:#6390db;
+	border: 1px black solid;
+	width: 100%;
+	height: 710px;
+
+
+
+}
+.section1 h1{
+	text-align: center;
+	margin-top: 45px;
+	font-size: 40px;
+}
+
+.content{
+
+	margin-top: 35px;
+	height: 530px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+
+.content p{
+	margin:0;
+	padding-bottom: 10px;
+}
+.image {
+	float:right;
+	width:400px;
+	height:300px;
+
+	padding-left:50px;
+	padding-top:4px;
+	padding-bottom:20px;
+}
+
+.section2 {
+	background-color:#ffbbdd;
+	border:1px pink solid;
+	width:100%;
+	height:687px;
+}
+.sectiontitle h1 {
+	text-align:center;
+	margin-top:45px;
+	font-size:40px;
+
+}
+
+.wrapper {
+	width:965px;
+	height:500px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 35px;
+
+}
+.left{
+	width: 480px;
+	height: 500px;
+	float: left;
+
+	line-height:25px;
+	
+}
+
+.peppermint{
+	float:left;
+	width:200px;
+	height:150px;
+}
+
+.snappeas{
+	float:left;
+	width:200px;
+	height:150px;
+}
+
+.wormwood{
+	float:left;
+	width:200px;
+	height:150px;
+}
+
+.right{
+	width: 480px;
+	height: 500px;
+	float: right;
+	font-size:18px;
+	line-height:25px;
+}
+
+.pepper{ 
+	float:left;
+	width:200px;
+	height:150px;
+ }
+
+ .wintor{
+ 	float:left;
+ 	width:200px;
+ 	height:150px;
+ }
+
+ .raspberries{
+ 	float:left;
+ 	width:200px;
+ 	height:150px;
+ }
+
+.box{
+	height: 150px;
+	margin:0;
+	padding-bottom: 20px;
+}
+
+.box h4{
+	margin:0;
+	font-size: 18px;
+}
+
+.box p{
+	font-size: 15px;
+}
+.box img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding-right: 10px;
+}
+
+
+.section3 {
+	border: 1px solid white;
+	width:100%;
+	height:395px;
+	margin-top:65px;
+	background-color:white;
+}
+
+.section3 h1 {
+	text-align: center;
+	margin-top: 110px;
+	font-size: 40px;	
+	margin-bottom: 0;
+}
+
+.section3 p{
+	margin-top: 40px;
+	text-align:center;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-size: 24px;
+	line-height: 35px;
+
+}
+
+.section4{
+	font-size:18px;
+	margin-left: 360px;
+	margin-top: 45px;
+	background-color:white;
+
+}
+
+.x{
+
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	letter-spacing: 1px;
+}
+
+
