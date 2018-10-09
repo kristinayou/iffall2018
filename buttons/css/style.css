@@ -1,0 +1,540 @@
+body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_harley_davidson {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:50px;
+			}
+
+			a#btn_harley_davidson:hover {
+				transform: scale(0.8);
+			}
+
+			a#btn_michaelkors {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:60px;
+			}
+
+			a#btn_michaelkors:hover {
+			opacity:0.5;
+			}
+
+			a#btn_cartoonnetwork {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:60px;
+			}
+
+			
+			@keyframes wiggle {
+  			20%  { transform: translateX(4px);  }
+  			40%  { transform: translateX(-4px); }
+  			60%  { transform: translateX(2px);  }
+  			80%  { transform: translateX(-1px); }
+  			100% { transform: translateX(0);    }
+			}
+
+			a#btn_cartoonnetwork:hover {
+			 animation: wiggle 1s ease;
+  			animation-iteration-count: 1;
+			}
+
+			a#btn_thetonightshow {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			a#btn_thetonightshow:hover {
+			transform:scale(1.3);
+			}
+
+			a#btn_ideo {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:100px;
+			}
+
+			a#btn_ideo:hover {
+			transform: rotate(20deg);
+			}
+
+			a#btn_lyft {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:35px;
+			}
+
+			a#btn_lyft:hover {
+			transform:translate(20px,20px);
+			}
+
+			a#btn_samsung {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:90px;
+			}
+
+			a#btn_samsung:hover {
+			opacity:0.8;
+			}
+
+			a#btn_nike {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:38px;
+			transform-origin: left top;
+			transition: transform 1s;
+			}
+
+			a#btn_nike:hover {
+			transform: rotate(720deg);
+			}
+
+			a#btn_missouribotanicalgarden {
+			display:block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			@-webkit-keyframes hvr-pulse-shrink {
+  			to {
+   			 -webkit-transform: scale(0.9);
+    		 transform: scale(0.9);
+  				}
+			}
+
+			a#btn_missouribotanicalgarden:hover{
+			 display: inline-block;
+  			vertical-align: middle;
+  			-webkit-transform: perspective(1px) translateZ(0);
+ 			 transform: perspective(1px) translateZ(0);
+  			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+			
+			}
+
+			a#btn_hulkhogan {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:85px;
+			}
+
+			a#btn_hulkhogan:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_teslamotors {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			a#btn_teslamotors:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_thecolorrun {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:100px;
+			}
+
+			a#btn_thecolorrun:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_moo {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:70px;
+			}
+
+			a#btn_moo:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_pottermore {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:95px;
+			}
+
+			a#btn_pottermore:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_fitbit {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			a#btn_fitbit:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_explodingkittens {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			a#btn_explodingkittens:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_stjude {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:45px;
+			}
+
+			a#btn_stjude:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_newyorker {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:90px;
+			}
+
+			a#btn_newyorker:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+
+			a#btn_foreflight {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:100px;
+			margin-right:45px;
+			}
+
+			a#btn_foreflight:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_npr {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:100px;
+			}
+
+			a#btn_npr:hover {
+
+			}
+
+			a#btn_velocity{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:70px;
+			}
+
+			a#btn_velocity:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_hsn{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			}
+
+			a#btn_hsn:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_instagram{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:60px;
+			}
+
+			a#btn_instgram:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_facebook{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:20px;
+			}
+
+			a#btn_facebook:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+			a#btn_oldnavy{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:100px;
+			}
+
+			a#btn_oldnavy:hover {
+			border-radius: 50%;
+			-webkit-animation: swing 1s ease;
+			animation: swing 1s ease;
+			-webkit-animation-iteration-count: 1;
+			animation-iteration-count: 1;
+			}
+
+			a#btn_army{
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:50px;
+			}
+
+			a#btn_army:hover {
+			color: #fff;
+			background-color: #eb1478;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
