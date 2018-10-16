@@ -234,23 +234,18 @@ body {
 			width: 200px;
 			height: 165px;
 			margin: auto;
+			background-image: url('../img/missouribotanicalgarden.png');
+			background-size: contain;
+			background-position: center;
+			background-repeat:no-repeat;
 			margin-top:30px;
 			}
 
-			@-webkit-keyframes hvr-pulse-shrink {
-  			to {
-   			 -webkit-transform: scale(0.9);
-    		 transform: scale(0.9);
-  				}
-			}
 
 			a#btn_missouribotanicalgarden:hover{
-			 display: inline-block;
-  			vertical-align: middle;
-  			-webkit-transform: perspective(1px) translateZ(0);
- 			 transform: perspective(1px) translateZ(0);
-  			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-
+			background-image:url('../img/missouribotanicalgarden1.png');
+			background-repeat:no-repeat;
+			margin-top:30px;
 			
 			}
 
@@ -263,22 +258,33 @@ body {
 			}
 
 			a#btn_hulkhogan:hover {
-			color: #fff;
-			background-color: #eb1478;
+			transform:scale(1.2);
 			}
 
 			a#btn_teslamotors {
-			display: inline-block;
-			width: 200px;
-			height: 165px;
+			display:inline-block;
 			margin: auto;
+			height:200px;
+			width:200px;
+			background-image: url('../img/teslamotors.png');
+			background-size: contain;
+			background-position: center;
+			background-repeat:no-repeat;
 			margin-top:30px;
 			}
 
 			a#btn_teslamotors:hover {
-			color: #fff;
-			background-color: #eb1478;
+			display:inline-block;
+			background-image:url('../img/teslamotors1.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
+			height:200px;
+			width:200px;
+			margin-top:30px;
 			}
+
+
 
 			a#btn_thecolorrun {
 			display: inline-block;
@@ -288,22 +294,40 @@ body {
 			margin-top:100px;
 			}
 
+			@keyframes wiggle {
+  			20%  { transform: translateY(4px);  }
+  			40%  { transform: translateY(-4px); }
+  			60%  { transform: translateY(2px);  }
+  			80%  { transform: translateY(-1px); }
+  			100% { transform: translateY(0);    }
+			}
+
 			a#btn_thecolorrun:hover {
-			color: #fff;
-			background-color: #eb1478;
+			animation: wiggle 1s ease;
+  			animation-iteration-count: 1;
 			}
 
 			a#btn_moo {
-			display: inline-block;
-			width: 200px;
-			height: 165px;
+			display:inline-block;
 			margin: auto;
-			margin-top:70px;
+			height:200px;
+			width:200px;
+			background-image: url('../img/moo.png');
+			background-size: contain;
+			background-position: center;
+			background-repeat:no-repeat;
+			margin-top:40px;
 			}
 
 			a#btn_moo:hover {
-			color: #fff;
-			background-color: #eb1478;
+			display:inline-block;
+			background-image:url('../img/moo1.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
+			height:200px;
+			width:200px;
+			margin-top:40px;
 			}
 
 			a#btn_pottermore {
@@ -312,24 +336,35 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:95px;
+			opacity:0.5;
 			}
 
 			a#btn_pottermore:hover {
-			color: #fff;
-			background-color: #eb1478;
+			opacity:1;
 			}
 
 			a#btn_fitbit {
-			display: inline-block;
-			width: 200px;
-			height: 165px;
+			display:inline-block;
 			margin: auto;
+			height:200px;
+			width:200px;
+			background-image: url('../img/fitbit.png');
+			background-size: contain;
+			background-position: center;
+			background-repeat:no-repeat;
 			margin-top:30px;
+			transition:transform 0.3s ease;
 			}
 
 			a#btn_fitbit:hover {
-			color: #fff;
-			background-color: #eb1478;
+			display:inline-block;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
+			height:200px;
+			width:200px;
+			margin-top:30px;
+			transform:skew(90deg);
 			}
 
 			a#btn_explodingkittens {
@@ -338,11 +373,11 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:30px;
+			transition: transform 0.5s linear;
 			}
 
 			a#btn_explodingkittens:hover {
-			color: #fff;
-			background-color: #eb1478;
+			transform: translateX(15px);
 			}
 
 			a#btn_stjude {
@@ -351,11 +386,22 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:45px;
+			background-image: url('../img/stjude1.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 			a#btn_stjude:hover {
-			color: #fff;
-			background-color: #eb1478;
+			background-image: url('../img/stjude.png');
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:45px;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 			a#btn_newyorker {
@@ -363,12 +409,23 @@ body {
 			width: 200px;
 			height: 165px;
 			margin: auto;
-			margin-top:90px;
+			margin-top:50px;
+			background-image: url('../img/newyorker.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 			a#btn_newyorker:hover {
-			color: #fff;
-			background-color: #eb1478;
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:50px;
+			background-image: url('../img/newyorker1.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 
@@ -379,37 +436,49 @@ body {
 			margin: auto;
 			margin-top:100px;
 			margin-right:45px;
+			transition: transform 0.5s linear;
 			}
 
 			a#btn_foreflight:hover {
-			color: #fff;
-			background-color: #eb1478;
+			transform: translateY(-50px);
+		
 			}
 
 			a#btn_npr {
-			display: inline-block;
+			display: block;
 			width: 200px;
 			height: 165px;
 			margin: auto;
 			margin-top:100px;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
 			}
 
 			a#btn_npr:hover {
-
-			}
+			-webkit-filter: blur(2px);
+		}
 
 			a#btn_velocity{
+			background-image:url('../img/velocity.png');
 			display: inline-block;
+			background-repeat:no-repeat;
 			width: 200px;
 			height: 165px;
 			margin: auto;
 			margin-top:70px;
+			transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   		 	transform-origin: center;
 			}
 
 			a#btn_velocity:hover {
-			color: #fff;
-			background-color: #eb1478;
+			-webkit-transform: scale3d(2, 2, 2);
+    		transform: scale3d(2);
+			
 			}
+			
 
 			a#btn_hsn{
 			display: inline-block;
@@ -417,11 +486,27 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:30px;
+			margin: auto;
+			margin-top:50px;
+			background-image: url('../img/hsn.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 			a#btn_hsn:hover {
-			color: #fff;
-			background-color: #eb1478;
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:30px;
+			margin: auto;
+			margin-top:50px;
+			background-image: url('../img/hsn1.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
+
 			}
 
 			a#btn_instagram{
@@ -429,12 +514,23 @@ body {
 			width: 200px;
 			height: 165px;
 			margin: auto;
-			margin-top:60px;
+			margin-top:40px;
+			background-image: url('../img/instagram2.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
-			a#btn_instgram:hover {
-			color: #fff;
-			background-color: #eb1478;
+			a#btn_instagram:hover {
+			display: inline-block;
+			width: 200px;
+			height: 165px;
+			margin: auto;
+			margin-top:40px;
+			background-image: url('../img/instagram.png');
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:contain;
 			}
 
 			a#btn_facebook{
@@ -443,11 +539,14 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:20px;
+			transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   		 	transform-origin: center;
 			}
 
 			a#btn_facebook:hover {
-			color: #fff;
-			background-color: #eb1478;
+			-webkit-transform: scaleX(1.3, 1.3, 1.3);
+    		transform: scaleX(1.3);
+			
 			}
 
 			a#btn_oldnavy{
@@ -458,12 +557,17 @@ body {
 			margin-top:100px;
 			}
 
+			@keyframes wiggle {
+  			20%  { transform: translateY(4px);  }
+  			40%  { transform: translateY(-4px); }
+  			60%  { transform: translateY(2px);  }
+  			80%  { transform: translateY(-1px); }
+  			100% { transform: translateY(0);    }
+			}
+
 			a#btn_oldnavy:hover {
-			border-radius: 50%;
-			-webkit-animation: swing 1s ease;
-			animation: swing 1s ease;
-			-webkit-animation-iteration-count: 1;
-			animation-iteration-count: 1;
+			animation: wiggle .5s ease;
+  			animation-iteration-count: 1;
 			}
 
 			a#btn_army{
@@ -472,11 +576,13 @@ body {
 			height: 165px;
 			margin: auto;
 			margin-top:50px;
+			transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   		 	transform-origin: center;
 			}
 
 			a#btn_army:hover {
-			color: #fff;
-			background-color: #eb1478;
+			-webkit-transform: scale3d(0.7, 0.7, 0.7);
+    		transform: scale3d(0.7);
 			}
 
 
