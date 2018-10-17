@@ -1,0 +1,200 @@
+	body{
+		background-color:#dcc6d8 ;
+		font-family: 'Neutraface Text', sans-serif,color:#207a00;
+		line-height: 32
+		margin:5em auto;
+		width:1080px
+		height:1920px;
+		margin-bottom:100px;
+	}
+
+
+	.header{
+		margin-top:40px
+		font-size:100pt;
+		color:#207a00;
+		font-family:'Neutraface Text', sans-serif;
+		padding:50px;
+		padding-bottom:0px;
+	}
+
+	.subheader{
+		font-size:30pt;
+		padding-left:50px;
+		padding-top:15px;
+		margin-top:0px;
+		color:#207a00;
+	}
+
+/*	.details{
+		padding-top:100px;
+		padding-left:500px;
+		padding-bottom:0px;
+		display:inline-block;
+		line-height:34pt;
+	}*/
+
+	.preptime{
+		margin-top:30px
+		font-size:60pt;
+		color:white;
+		font-family:'Neutraface Text', sans-serif;
+		padding-left:80px;
+		padding-bottom:0px;
+		line-height: 36pt
+
+
+	}
+
+	.time{
+		font-size:20pt;
+		font-family: 'Neutraface Text', sans-serif;
+		/*padding-top:100px;
+		padding-left:750px;
+		padding-bottom:0px;*/
+		/*line-height: 34pt;*/
+		color:white;
+		/*display:inline-block;
+		*/
+	}
+
+	.image1{
+		width:200px;
+		float:right;
+		margin-right:200px;
+		margin-top:200px;
+		display:block;
+	}
+
+	.ingredients{
+		margin-top:30px
+		font-size:60pt;
+		color:#207a00;
+		font-family:'Neutraface Text', sans-serif;
+		padding:30px;
+		padding-bottom:0px;
+	}
+
+	.macaronshells{
+		margin-top:0px
+		font-size:25pt;
+		color:white;
+		font-family:'Bembo', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+	}
+
+	.macaronshellsingredients{
+		margin-top:0px
+		font-size:20pt;
+		color:#207a00;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:32pt;
+	}
+
+	.buttercreamfilling{
+		margin-top:0px
+		font-size:25pt;
+		color:white;
+		font-family:'Bembo', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+	}
+
+	.buttercreamfillingingredients{
+		margin-top:0px
+		font-size:20pt;
+		color:#207a00;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:32pt;
+	}
+
+	.instructions{
+		margin-top:30px
+		font-size:60pt;
+		color:#207a00;
+		font-family:'Neutraface Text', sans-serif;
+		padding:30px;
+		padding-bottom:0px;
+	}
+
+	.shells{
+		margin-top:0px
+		font-size:25pt;
+		color:white;
+		font-family:'Bembo', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+	}
+
+	.shellinstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:#207a00;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:26pt;
+		width:800px;
+	}
+
+	.buttercream{
+		margin-top:0px
+		font-size:25pt;
+		color:white;
+		font-family:'Bembo', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+	}
+
+	.buttercreaminstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:#207a00;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:26pt;
+	}
+
+	.makethemacarons{
+		margin-top:0px
+		font-size:25pt;
+		color:white;
+		font-family:'Bembo', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+	}
+
+	.macaroninstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:#207a00;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:26pt;
+		width:800px;
+	}
+
+	.image2{
+		align-content: center
+		width:300px;
+		margin-top:0px;
+		float:right;
+		margin-right:30px;
+	}
