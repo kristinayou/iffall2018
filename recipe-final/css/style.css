@@ -1,0 +1,232 @@
+	body{
+		background-color:#dcc6d8 ;
+		font-family: 'Neutraface Text', sans-serif,color:#207a00;
+		line-height: 32
+		margin:5em auto;
+		width:1080px
+		height:1920px;
+		margin-bottom:100px;
+	}
+
+
+	.header{
+		margin-top:40px
+		font-size:100pt;
+		color:#0057e7;
+		font-family:'ganache', serif;
+		padding:10px;
+		padding-bottom:0px;
+		text-align: center
+	}
+
+	.subheader{
+		font-size:25pt;
+		padding-left:50px;
+		padding-top:15px;
+		margin-top:0px;
+		color:#6db5ff;
+		text-align: center
+	}
+
+/*	.details{
+		padding-top:100px;
+		padding-left:500px;
+		padding-bottom:0px;
+		display:inline-block;
+		line-height:34pt;
+	}*/
+
+	.preptime{
+		margin-top:30px
+		font-size:20pt;
+		color:#0057e7;
+		font-family:'Neutraface Text', sans-serif;
+		padding-left:80px;
+		padding-bottom:0px;
+		line-height: 36pt;
+		display:inline-block;
+		width:25%;
+		box-sizing:border-box;
+		vertical-align: top;
+
+
+	}
+
+	.time{
+		font-size:20pt;
+		font-family: 'Neutraface Text', sans-serif;
+		/*line-height: 36pt;*/
+		margin-top:95px;
+		color:#0057e7;
+		display:inline-block;
+		width:25%;
+		box-sizing:border-box;
+		vertical-align: top;
+		line-height: 36pt
+		
+	}
+
+	.image1{
+		width:200px;
+		float:right;
+		margin-right:200px;
+		margin-top:200px;
+		display:block;
+	}
+
+	.ingredients{
+		margin-top:60px
+		font-size:60pt;
+		color:#6db5ff;
+		font-family:'Neutraface Text', sans-serif;
+		padding:30px;
+		padding-bottom:0px;
+		padding-top:60px;
+	}
+
+	.macaronshells{
+		margin-top:0px
+		font-size:25pt;
+		font-family:'ganache', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		color:#0057e7;
+
+	}
+
+	.macaronshellsingredients{
+		margin-top:0px
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:25pt;
+		width:700px;
+
+	}
+
+	.buttercreamfilling{
+		margin-top:0px
+		font-size:25pt;
+		color:#0057e7;
+		font-family:'ganache', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		margin-top:60px;
+	}
+
+	.buttercreamfillingingredients{
+		margin-top:0px
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:25pt;
+		width:700px;
+	}
+
+	.instructions{
+		margin-top:80px
+		font-size:60pt;
+		color:#6db5ff;
+		font-family:'Neutraface Text', sans-serif;
+		padding:30px;
+		padding-bottom:0px;
+		padding-top:60px;
+
+	}
+
+	.shells{
+		margin-top:0px
+		font-size:25pt;
+		color:#0057e7;
+		font-family:'ganache', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		margin-top:30px;
+	}
+
+	.shellinstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:20pt;
+		width:700px;
+	}
+
+	.buttercream{
+		margin-top:0px
+		font-size:25pt;
+		color:#0057e7;
+		font-family:'ganache', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		margin-top:60px;
+	}
+
+	.buttercreaminstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:20pt;
+		width:700px;
+
+	}
+
+	.makethemacarons{
+		margin-top:0px
+		font-size:25pt;
+		color:#0057e7;
+		font-family:'ganache', serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		margin-top:60px;
+	}
+
+	.macaroninstructions{
+		margin-top:0px
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text',sans-serif;
+		padding-bottom:0px;
+		padding-top:0px;
+		padding-left:30px;
+		line-height:20pt;
+		width:700px;
+	}
+
+	.image2{
+		align-content: center
+		width:300px;
+		margin-top:0px;
+		float:right;
+		margin-right:30px;
+	}
+
+	.citation{
+		margin-top:80px;
+		font-size:20pt;
+		color:black;
+		font-family:'Neutraface text', sans-serif;
+		padding-bottom:20px;
+		width:600px
+
+
+	}
