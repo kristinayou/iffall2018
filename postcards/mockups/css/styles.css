@@ -1,0 +1,49 @@
+body{
+	display:block;
+	margin:auto;
+	text-align: center;
+	align-content: center;
+	margin-top:100px;
+	
+}
+
+.title{
+	font-family:arial, sans-serif;
+	text-align: center
+
+}
+#bird{
+	text-align: center;
+	margin:auto;
+	width:50%;
+}
+
+#birdmobile{
+	align-content: center
+	margin:auto;
+	width:50%;
+}
+
+#fine{
+	align-content: center
+	margin:auto;
+	width:50%;
+}
+
+#finemobile{
+	align-content: center
+	margin:auto;
+	width:50%;
+}
+
+#youdontknow{
+	align-content: center
+	margin:auto;
+	width:50%;
+}
+
+#youdontknowmobile{
+	align-content: center
+	margin:auto;
+	width:50%;
+}
